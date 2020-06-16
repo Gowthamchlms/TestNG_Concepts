@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="Test(failed)(failed)">
+    <parameter name="urls" value="http://adactinhotelapp.com/index.php"/>
+    <parameter name="password" value="Myvizhi@1194"/>
+    <parameter name="time" value="10"/>
+    <parameter name="username" value="GOWTHAMK"/>
+    <classes>
+      <class name="org.scripts.ParameterConcept">
+        <methods>
+          <include name="endTime"/>
+          <include name="tc1"/>
+          <include name="tc2" invocation-numbers="0"/>
+          <include name="browserLaun"/>
+          <include name="startTime"/>
+          <include name="endExecution"/>
+        </methods>
+      </class> <!-- org.scripts.ParameterConcept -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
